@@ -4,7 +4,9 @@ import tkinter
 import customtkinter as ctk
 from tkinter import filedialog, ttk, messagebox
 import tkinter.font as font
-import uuid # Used for creating Unique_IDs
+from dotenv import load_dotenv
+import google.generativeai as genai
+import threading
 
 # Customize theme for the Custom-Tkinter App
 ctk.set_appearance_mode("Dark")
@@ -43,12 +45,14 @@ class Scribe(ctk.CTk):
         self.navbar = ctk.CTkFrame(self, bg_color="#1d1e1e", fg_color = "#1d1e1e")
         self.navbar.pack(side="top", fill="x")
 
-        nav_file = ctk.CTkButton(self.navbar, text="File", width=45, height=20, corner_radius=0, command=self.toggle_file_menu, fg_color = "#1d1e1e", bg_color = "#1d1e1e", hover_color="#3b3b3b", text_color = "#ffffff")
-        nav_edit = ctk.CTkButton(self.navbar, text="Edit", width=45, height=20, corner_radius=0, command=self.toggle_edit_menu, fg_color = "#1d1e1e", bg_color = "#1d1e1e", hover_color="#3b3b3b", text_color = "#ffffff")
-        nav_view = ctk.CTkButton(self.navbar, text="View", width=45, height=20, corner_radius=0, command=self.toggle_view_menu, fg_color = "#1d1e1e", bg_color = "#1d1e1e", hover_color="#3b3b3b", text_color = "#ffffff")
+        nav_file = ctk.CTkButton(self.navbar, text="File", width=45, height=20, corner_radius=3, command=self.toggle_file_menu, fg_color = "#1d1e1e", bg_color = "#1d1e1e", hover_color="#3b3b3b", text_color = "#ffffff")
+        nav_edit = ctk.CTkButton(self.navbar, text="Edit", width=45, height=20, corner_radius=3, command=self.toggle_edit_menu, fg_color = "#1d1e1e", bg_color = "#1d1e1e", hover_color="#3b3b3b", text_color = "#ffffff")
+        nav_view = ctk.CTkButton(self.navbar, text="View", width=45, height=20, corner_radius=3, command=self.toggle_view_menu, fg_color = "#1d1e1e", bg_color = "#1d1e1e", hover_color="#3b3b3b", text_color = "#ffffff")
+        nav_assistant = ctk.CTkButton(self.navbar, text="✨", width=20, height=20, corner_radius=3, command=self.toggle_scribe_assistant, fg_color = "#1d1e1e", bg_color = "#1d1e1e", hover_color="#3b3b3b", text_color = "#9999FF", font=("Calbiri", 12, "normal"))
         nav_file.pack(side = "left", padx = 1)
         nav_edit.pack(side = "left", padx = 2)
         nav_view.pack(side = "left", padx = 2)
+        nav_assistant.pack(side = "right", padx = 1)
 
         # Configure 'Style' for Notebook
         self.style = ttk.Style()
@@ -71,6 +75,16 @@ class Scribe(ctk.CTk):
         # Add Status_Bar
         self.add_status_bar()
 
+        # Initialize "genai" Model
+        load_dotenv() # Load the "Environment_Variables" from ".env" File
+        gemini_key=os.getenv("GOOGLE_GENAI_API_KEY") # Fetch the API Key
+        if not gemini_key:
+            self.op_status.configure(text=": / Gemini Authentication Failed")
+            print("Plausible Error : : ⚠️'.env' File Not Found")
+        else:
+            genai.configure(api_key = gemini_key)
+            self.model = genai.GenerativeModel('gemini-pro')
+
         # Handles "Tab_Change" Events
         self.notebook.bind("<<NotebookTabChanged>>", self.tab_change_event)
 
@@ -81,11 +95,8 @@ class Scribe(ctk.CTk):
         self.bind("<Control-Shift-s>", lambda event: self.save_as_scribe())
         self.bind("<Control-z>", lambda event: self.undo_scribe())
         self.bind("<Control-y>", lambda event: self.redo_scribe())
-        self.bind("<Control-c>", lambda event: self.copy_scribe())
-        self.bind("<Control-x>", lambda event: self.cut_scribe())
-        self.bind("<Control-v>", lambda event: self.paste_scribe())
         self.bind("<Control-f>", lambda event: self.toggle_find_widget())
-        self.bind("<Control-a>", lambda event: self.toggle_font_menu())
+        self.bind("<Control-Shift-F>", lambda event: self.toggle_font_menu())
         self.bind("<Control-+>", lambda event: self.zoom_in())
         self.bind("<Control-.>", lambda event: self.zoom_out())
 
@@ -106,8 +117,8 @@ class Scribe(ctk.CTk):
             text_area.pack(expand = True, fill="both")
 
             # Create a "X" button to close the tab
-            close_tab = ctk.CTkButton(frame, text=" X ", font = ('Comic Sans MS', 9, "bold"), corner_radius = 3, text_color = "#ffc300", fg_color = "#3b3b3b", bg_color = "#3b3b3b", hover_color = "#4f4f4f", width = 10, height = 20, command = lambda: self.close_tab(frame))
-            close_tab.place(relx=1.0, rely=0.0, anchor="ne")
+            close_tab = ctk.CTkButton(frame, text=" X ", font = ('Comic Sans MS', 9, "bold"), corner_radius = 2, text_color = "#ffc300", fg_color = "#3b3b3b", bg_color = "#1c1c1c", hover_color = "#4f4f4f", width = 25, height = 20, command = lambda: self.close_tab(frame))
+            close_tab.place(relx=1.0, rely=0.0, anchor="ne", x=1)
 
             # Handles the Event that "Text_Area" is "Clicked"
             text_area.bind("<Button-1>", self.click_on_textbox)
@@ -125,7 +136,6 @@ class Scribe(ctk.CTk):
     # Configure and Add New Tabs
     def add_new_tab(self):
         try:
-            tab_id = uuid.uuid4()
             frame = ctk.CTkFrame(self.notebook)
             text_area = Scribe.add_text_area(self,frame) 
 
@@ -146,7 +156,7 @@ class Scribe(ctk.CTk):
                 # Helps to Generate the "First Tab" when: "len(self.notebook.tabs()) = 0"
                 self.notebook.add(frame, text = f"New Scribet")
 
-            return tab_id,text_area
+            return text_area
         except AttributeError as e:
             self.op_status.configure(text=": /")
             print(f"{e}")
@@ -457,7 +467,7 @@ class Scribe(ctk.CTk):
                 try:
                     with open(file_path, "r") as file:
                         content = file.read()
-                    tab_id, text_area = self.add_new_tab()
+                    text_area = self.add_new_tab()
                     text_area.insert("1.0", content)
 
                     # Save File_Path 
@@ -656,15 +666,17 @@ class Scribe(ctk.CTk):
                 self.find_widget = None
             else:
                 if self.file_menu and self.file_menu.winfo_ismapped():
-                    self.file_menu.place_forget() #Hide File_Menu
+                    self.toggle_file_menu() #Hide File_Menu
                 if self.edit_menu and self.edit_menu.winfo_ismapped():
-                    self.edit_menu.place_forget() #Hide Edit_Menu
+                    self.toggle_edit_menu() #Hide Edit_Menu
                 if self.view_menu and self.view_menu.winfo_ismapped():
-                    self.view_menu.place_forget() #Hide View_Menu
+                    self.toggle_view_menu() #Hide View_Menu
                     if self.zoom_menu and self.zoom_menu.winfo_ismapped():
-                        self.zoom_menu.place_forget() #Hide Zoom_Menu
+                        self.toggle_zoom_menu() #Hide Zoom_Menu
                 if self.font_menu and self.font_menu.winfo_ismapped():
-                    self.font_menu.place_forget() #Hide Font_Menu
+                    self.toggle_font_menu() #Hide Font_Menu
+                if self.scribe_assistant and self.scribe_assistant.winfo_ismapped():
+                    self.toggle_scribe_assistant() #Hide Scribe_Assistant
                 self.display_find_widget() #Show Find_widget
         except AttributeError as e:
             self.op_status.configure(text=": /")
@@ -856,18 +868,20 @@ class Scribe(ctk.CTk):
     def toggle_font_menu(self):
         try:
             if self.font_menu and self.font_menu.winfo_ismapped():
-                self.font_menu.place_forget() #Hide Zoom_Menu
+                self.font_menu.place_forget() #Hide Font_Menu
             else:
                 if self.file_menu and self.file_menu.winfo_ismapped():
-                    self.file_menu.place_forget() #Hide File_Menu
+                    self.toggle_file_menu() #Hide File_Menu
                 if self.edit_menu and self.edit_menu.winfo_ismapped():
-                    self.edit_menu.place_forget() #Hide Edit_Menu
+                    self.toggle_edit_menu() #Hide Edit_Menu
                 if self.view_menu and self.view_menu.winfo_ismapped():
-                    self.view_menu.place_forget() #Hide View_Menu
+                    self.toggle_view_menu() #Hide View_Menu
                     if self.zoom_menu and self.zoom_menu.winfo_ismapped():
-                        self.zoom_menu.place_forget() #Hide Zoom_Menu
+                        self.toggle_zoom_menu() #Hide Zoom_Menu
                 if self.find_widget and self.find_widget.winfo_ismapped():
                     self.toggle_find_widget() #Hide Find_Widget
+                if self.scribe_assistant and self.scribe_assistant.winfo_ismapped():
+                    self.toggle_scribe_assistant() #Hide Scribe_Assistant
                 self.display_font_menu() #Show Zoom_Menu   
         except AttributeError as e:
             self.op_status.configure(text=": /")
@@ -993,9 +1007,9 @@ class Scribe(ctk.CTk):
                 self.zoom_menu.place_forget() #Hide Zoom_Menu
             else:
                 if self.file_menu and self.file_menu.winfo_ismapped():
-                    self.file_menu.place_forget() #Hide File_Menu
+                    self.toggle_file_menu() #Hide File_Menu
                 if self.edit_menu and self.edit_menu.winfo_ismapped():
-                    self.edit_menu.place_forget() #Hide Edit_Menu
+                    self.toggle_edit_menu() #Hide Edit_Menu
                 self.display_zoom_menu() #Show Zoom_Menu   
         except AttributeError as e:
             self.op_status.configure(text=": /")
@@ -1154,6 +1168,129 @@ class Scribe(ctk.CTk):
         except Exception as e:
             self.op_status.configure(text=": /")
             print(f"{e}")
+
+
+
+    # Scribe_Assistant----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------#
+    scribe_assistant = None
+
+    def toggle_scribe_assistant(self):
+        try:
+            if self.scribe_assistant and self.scribe_assistant.winfo_ismapped():
+                self.scribe_assistant.place_forget() #Hide Scribe_Assistant
+            else:
+                if self.file_menu and self.file_menu.winfo_ismapped():
+                    self.file_menu.place_forget() #Hide File_Menu
+                if self.edit_menu and self.edit_menu.winfo_ismapped():
+                    self.edit_menu.place_forget() #Hide Edit_Menu
+                if self.view_menu and self.view_menu.winfo_ismapped():
+                    self.view_menu.place_forget() #Hide View_Menu
+                    if self.zoom_menu and self.zoom_menu.winfo_ismapped():
+                        self.zoom_menu.place_forget() #Hide Zoom_Menu
+                if self.find_widget and self.find_widget.winfo_ismapped():
+                    self.toggle_find_widget() #Hide Find_Widget
+                if self.font_menu and self.font_menu.winfo_ismapped():
+                    self.toggle_font_menu() #Hide Font_Menu
+                self.display_scribe_assistant() #Show Zoom_Menu   
+        except AttributeError as e:
+            self.op_status.configure(text=": /")
+            print(f"{e}")
+        except Exception as e:
+            self.op_status.configure(text=": /")
+            print(f"{e}") 
+    
+    def display_scribe_assistant(self):
+        try:
+            
+            if not self.scribe_assistant:
+                window_height = self.winfo_height()
+                self.scribe_assistant = ctk.CTkFrame(self, fg_color="#1c1c1c", bg_color="#1c1c1c", width=400, corner_radius=6)
+                
+                self.chat_display = ctk.CTkTextbox(self.scribe_assistant, corner_radius=5, width=285, height=(window_height-117), state="disabled", fg_color = "#131313", bg_color = "#1c1c1c", padx=10, pady=25)
+                self.gemini_logo = ctk.CTkLabel(self.chat_display, text=" ✨ ", width = 15, height = 10, fg_color = "#131313", bg_color = "#131313", text_color = "#9999FF")
+                self.close_assistant = ctk.CTkButton(self.chat_display, text=" X ", command = self.toggle_scribe_assistant, corner_radius = 3, width = 15, height = 12, fg_color = "#202020", bg_color = "#131313", text_color = "#9999FF", hover_color = "#424242", font = ('Comic Sans MS', 9, "bold"))
+                self.clear_chat_display = ctk.CTkButton(self.chat_display, text=" Clear ", command = self.clear_chat, corner_radius = 3, width = 15, height = 10, fg_color = "#131313", bg_color = "#131313", text_color = "#9999FF", hover_color = "#424242", font = ('Roboto', 12, "normal"))
+                self.chat_display_placeholder = ctk.CTkLabel(self.chat_display, text=" Hello  User !", width = 35, height = 20, fg_color = "#131313", bg_color = "#131313", text_color = "#c2c2ff", font=("Roboto", 20, "normal"))
+                self.chat_input_frame = ctk.CTkFrame(self.scribe_assistant, fg_color="#1c1c1c", bg_color="#1c1c1c", width=250, corner_radius=6)
+
+                self.gemini_logo.place(relx=1.0, rely=0.0, anchor="ne", x=-255, y=5)
+                self.close_assistant.place(relx=1.0, rely=0.0, anchor="ne", x=-11, y=5)
+                self.clear_chat_display.place(relx=1.0, rely=0.0, anchor="ne", x=-40, y=5)
+                self.chat_display_placeholder.place(relx=1.0, rely=0.0, anchor="ne", x=-85, y=55)
+                self.chat_display.pack(fill="y", expand=True, padx=1, pady=0)
+                self.chat_input_frame.pack(padx=0, pady=0)
+                self.chat_input_frame.grid_columnconfigure(0, weight=0, minsize = 249)
+                self.chat_input_frame.grid_columnconfigure(1, weight=0, minsize = 35)
+
+                self.user_chat_input = ctk.CTkEntry(self.chat_input_frame,corner_radius=0, width=249, height=30, placeholder_text="Ask  Gemini✨", fg_color = "#2a2a2a", bg_color = "#1c1c1c", border_color="#2a2a2a", placeholder_text_color="#9999FF")
+                self.send_button = ctk.CTkButton(self.chat_input_frame, text="➤", command=self.send_user_chat_input, corner_radius=0, width=32, height=30, fg_color = "#2a2a2a", bg_color = "#1c1c1c", text_color = "#9999FF", hover_color = "#424242")
+
+                self.user_chat_input.grid(row=0, column=0, padx=0, pady=0)
+                self.send_button.grid(row=0, column=1, padx=1, pady=0)
+
+                # Bind the "Enter" key for "User_chat_input" to "Send_user_chat_input" to the "Gemini" Model
+                self.user_chat_input.bind("<Return>", lambda event: self.send_user_chat_input())
+            self.scribe_assistant.place(relx=1.0, rely=0.0, anchor="ne", x=0, y=0)
+        except AttributeError as e:
+            self.op_status.configure(text=": /")    
+            print(f"{e}")
+        except Exception as e:
+            self.op_status.configure(text=": /")
+            print(f"{e}")
+
+    def send_user_chat_input(self):
+        try:
+            user_message = self.user_chat_input.get()
+            if not user_message:
+                return # Exit if no message is entered by the "User"
+            
+            self.chat_display_placeholder.place_forget() # Clear the "Placeholder_Text" for "Chat_display"
+
+            self.user_chat_input.delete(0, 'end') # Clear User_Input
+            self.update_chat("You", user_message) # Update "Chat_display" with "User_message"
+        
+            threading.Thread(target=self.generate_genai_response, args=(user_message,), daemon=True).start() # Generate "Response" in a separate "Thread"
+        except Exception as e:
+            self.op_status.configure(text=": /")
+            print(f"{e}")
+
+    def generate_genai_response(self, query): 
+        try:
+            response = self.model.generate_content(query)
+            self.scribe_assistant.after(0, self.update_chat, "Gemini", response.text) 
+        except Exception as e:
+            self.scribe_assistant.after(0, self.update_chat, "Gemini", "⚠️ Something Went Wrong") 
+            print(f"{e}") 
+
+    def update_chat(self, sender, message):
+        try:
+            self.chat_display.configure(state="normal", text_color = "#ffffff") # Update "Textbox_state" to "normal" i.e, Editable
+            self.chat_display.insert('end', f"{sender} :  {message}")
+            if sender == "You":
+                self.chat_display.insert('end', "\n")
+            else:
+                self.chat_display.insert('end', "\n\n\n")
+            self.chat_display.configure(state="disabled") # Update "Textbox_state" to "disabled" i.e, Non_Editable (so that User cannot change text in "Chat_display")
+            self.chat_display.see('end')
+
+            if sender == "You":
+                self.op_status.configure(text="Generating Response . . .")
+            else:
+                self.op_status.configure(text="Scribe")
+        except Exception as e:
+            self.op_status.configure(text=": /")
+            print(f"{e}") 
+    
+    def clear_chat(self):
+        try:
+            self.chat_display.configure(state="normal") # Editable
+            self.chat_display.delete('1.0', 'end')  # Delete all Text from the "Chat_display"
+            self.chat_display.configure(state="disabled") # Non_Editable
+            
+            self.chat_display_placeholder.place(relx=1.0, rely=0.0, anchor="ne", x=-78, y=55)
+        except Exception as e:
+            self.op_status.configure(text=": /")
+            print(f"{e}") 
 
 
 

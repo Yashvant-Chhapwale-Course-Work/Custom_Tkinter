@@ -17,6 +17,10 @@
   ('_sitebuiltins', 'C:\\Python312\\Lib\\_sitebuiltins.py', 'PYMODULE'),
   ('_strptime', 'C:\\Python312\\Lib\\_strptime.py', 'PYMODULE'),
   ('_threading_local', 'C:\\Python312\\Lib\\_threading_local.py', 'PYMODULE'),
+  ('annotated_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\annotated_types\\__init__.py',
+   'PYMODULE'),
   ('argparse', 'C:\\Python312\\Lib\\argparse.py', 'PYMODULE'),
   ('ast', 'C:\\Python312\\Lib\\ast.py', 'PYMODULE'),
   ('asyncio', 'C:\\Python312\\Lib\\asyncio\\__init__.py', 'PYMODULE'),
@@ -92,9 +96,86 @@
    'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\setuptools\\_vendor\\backports\\__init__.py',
    'PYMODULE'),
   ('base64', 'C:\\Python312\\Lib\\base64.py', 'PYMODULE'),
+  ('bdb', 'C:\\Python312\\Lib\\bdb.py', 'PYMODULE'),
   ('bisect', 'C:\\Python312\\Lib\\bisect.py', 'PYMODULE'),
   ('bz2', 'C:\\Python312\\Lib\\bz2.py', 'PYMODULE'),
+  ('cachetools',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\cachetools\\__init__.py',
+   'PYMODULE'),
+  ('cachetools.keys',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\cachetools\\keys.py',
+   'PYMODULE'),
   ('calendar', 'C:\\Python312\\Lib\\calendar.py', 'PYMODULE'),
+  ('certifi',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\certifi\\__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\certifi\\core.py',
+   'PYMODULE'),
+  ('charset_normalizer',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\charset_normalizer\\__init__.py',
+   'PYMODULE'),
+  ('charset_normalizer.api',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\charset_normalizer\\api.py',
+   'PYMODULE'),
+  ('charset_normalizer.cd',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\charset_normalizer\\cd.py',
+   'PYMODULE'),
+  ('charset_normalizer.constant',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\charset_normalizer\\constant.py',
+   'PYMODULE'),
+  ('charset_normalizer.legacy',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\charset_normalizer\\legacy.py',
+   'PYMODULE'),
+  ('charset_normalizer.models',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\charset_normalizer\\models.py',
+   'PYMODULE'),
+  ('charset_normalizer.utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\charset_normalizer\\utils.py',
+   'PYMODULE'),
+  ('charset_normalizer.version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\charset_normalizer\\version.py',
+   'PYMODULE'),
+  ('cmd', 'C:\\Python312\\Lib\\cmd.py', 'PYMODULE'),
+  ('code', 'C:\\Python312\\Lib\\code.py', 'PYMODULE'),
+  ('codeop', 'C:\\Python312\\Lib\\codeop.py', 'PYMODULE'),
+  ('colorama',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\colorama\\__init__.py',
+   'PYMODULE'),
+  ('colorama.ansi',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\colorama\\ansi.py',
+   'PYMODULE'),
+  ('colorama.ansitowin32',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\colorama\\ansitowin32.py',
+   'PYMODULE'),
+  ('colorama.initialise',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\colorama\\initialise.py',
+   'PYMODULE'),
+  ('colorama.win32',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\colorama\\win32.py',
+   'PYMODULE'),
+  ('colorama.winterm',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\colorama\\winterm.py',
+   'PYMODULE'),
+  ('colorsys', 'C:\\Python312\\Lib\\colorsys.py', 'PYMODULE'),
   ('concurrent', 'C:\\Python312\\Lib\\concurrent\\__init__.py', 'PYMODULE'),
   ('concurrent.futures',
    'C:\\Python312\\Lib\\concurrent\\futures\\__init__.py',
@@ -327,6 +408,27 @@
   ('decimal', 'C:\\Python312\\Lib\\decimal.py', 'PYMODULE'),
   ('difflib', 'C:\\Python312\\Lib\\difflib.py', 'PYMODULE'),
   ('dis', 'C:\\Python312\\Lib\\dis.py', 'PYMODULE'),
+  ('doctest', 'C:\\Python312\\Lib\\doctest.py', 'PYMODULE'),
+  ('dotenv',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\dotenv\\__init__.py',
+   'PYMODULE'),
+  ('dotenv.ipython',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\dotenv\\ipython.py',
+   'PYMODULE'),
+  ('dotenv.main',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\dotenv\\main.py',
+   'PYMODULE'),
+  ('dotenv.parser',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\dotenv\\parser.py',
+   'PYMODULE'),
+  ('dotenv.variables',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\dotenv\\variables.py',
+   'PYMODULE'),
   ('email', 'C:\\Python312\\Lib\\email\\__init__.py', 'PYMODULE'),
   ('email._encoded_words',
    'C:\\Python312\\Lib\\email\\_encoded_words.py',
@@ -353,6 +455,14 @@
    'PYMODULE'),
   ('email.iterators', 'C:\\Python312\\Lib\\email\\iterators.py', 'PYMODULE'),
   ('email.message', 'C:\\Python312\\Lib\\email\\message.py', 'PYMODULE'),
+  ('email.mime', 'C:\\Python312\\Lib\\email\\mime\\__init__.py', 'PYMODULE'),
+  ('email.mime.base', 'C:\\Python312\\Lib\\email\\mime\\base.py', 'PYMODULE'),
+  ('email.mime.multipart',
+   'C:\\Python312\\Lib\\email\\mime\\multipart.py',
+   'PYMODULE'),
+  ('email.mime.nonmultipart',
+   'C:\\Python312\\Lib\\email\\mime\\nonmultipart.py',
+   'PYMODULE'),
   ('email.parser', 'C:\\Python312\\Lib\\email\\parser.py', 'PYMODULE'),
   ('email.policy', 'C:\\Python312\\Lib\\email\\policy.py', 'PYMODULE'),
   ('email.quoprimime', 'C:\\Python312\\Lib\\email\\quoprimime.py', 'PYMODULE'),
@@ -364,6 +474,1372 @@
   ('getpass', 'C:\\Python312\\Lib\\getpass.py', 'PYMODULE'),
   ('gettext', 'C:\\Python312\\Lib\\gettext.py', 'PYMODULE'),
   ('glob', 'C:\\Python312\\Lib\\glob.py', 'PYMODULE'),
+  ('google', '-', 'PYMODULE'),
+  ('google._upb', '-', 'PYMODULE'),
+  ('google.ai', '-', 'PYMODULE'),
+  ('google.ai.generativelanguage',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage.gapic_version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage\\gapic_version.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.gapic_version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\gapic_version.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service.async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\async_client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service.pagers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\pagers.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\transports\\base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service.transports.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\transports\\grpc.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service.transports.grpc_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\transports\\grpc_asyncio.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.cache_service.transports.rest_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\cache_service\\transports\\rest_base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.discuss_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\discuss_service\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.discuss_service.async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\discuss_service\\async_client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.discuss_service.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\discuss_service\\client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.discuss_service.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\discuss_service\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.discuss_service.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\discuss_service\\transports\\base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.discuss_service.transports.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\discuss_service\\transports\\grpc.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.discuss_service.transports.grpc_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\discuss_service\\transports\\grpc_asyncio.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.discuss_service.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\discuss_service\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.discuss_service.transports.rest_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\discuss_service\\transports\\rest_base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service.async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\async_client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service.pagers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\pagers.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\transports\\base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service.transports.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\transports\\grpc.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service.transports.grpc_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\transports\\grpc_asyncio.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.file_service.transports.rest_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\file_service\\transports\\rest_base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.generative_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.generative_service.async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\async_client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.generative_service.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.generative_service.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.generative_service.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\transports\\base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.generative_service.transports.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\transports\\grpc.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.generative_service.transports.grpc_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\transports\\grpc_asyncio.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.generative_service.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.generative_service.transports.rest_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\generative_service\\transports\\rest_base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service.async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\async_client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service.pagers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\pagers.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\transports\\base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service.transports.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\transports\\grpc.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service.transports.grpc_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\transports\\grpc_asyncio.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.model_service.transports.rest_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\model_service\\transports\\rest_base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service.async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\async_client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service.pagers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\pagers.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\transports\\base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service.transports.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\transports\\grpc.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service.transports.grpc_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\transports\\grpc_asyncio.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.permission_service.transports.rest_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\permission_service\\transports\\rest_base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.prediction_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\prediction_service\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.prediction_service.async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\prediction_service\\async_client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.prediction_service.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\prediction_service\\client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.prediction_service.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\prediction_service\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.prediction_service.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\prediction_service\\transports\\base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.prediction_service.transports.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\prediction_service\\transports\\grpc.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.prediction_service.transports.grpc_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\prediction_service\\transports\\grpc_asyncio.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.prediction_service.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\prediction_service\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.prediction_service.transports.rest_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\prediction_service\\transports\\rest_base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service.async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\async_client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service.pagers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\pagers.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\transports\\base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service.transports.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\transports\\grpc.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service.transports.grpc_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\transports\\grpc_asyncio.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.retriever_service.transports.rest_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\retriever_service\\transports\\rest_base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.text_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\text_service\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.text_service.async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\text_service\\async_client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.text_service.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\text_service\\client.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.text_service.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\text_service\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.text_service.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\text_service\\transports\\base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.text_service.transports.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\text_service\\transports\\grpc.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.text_service.transports.grpc_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\text_service\\transports\\grpc_asyncio.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.text_service.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\text_service\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.services.text_service.transports.rest_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\services\\text_service\\transports\\rest_base.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\__init__.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.cache_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\cache_service.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.cached_content',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\cached_content.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.citation',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\citation.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.content',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\content.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.discuss_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\discuss_service.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.file',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\file.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.file_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\file_service.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.generative_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\generative_service.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.model',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\model.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.model_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\model_service.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.permission',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\permission.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.permission_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\permission_service.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.prediction_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\prediction_service.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.retriever',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\retriever.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.retriever_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\retriever_service.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.safety',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\safety.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.text_service',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\text_service.py',
+   'PYMODULE'),
+  ('google.ai.generativelanguage_v1beta.types.tuned_model',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\ai\\generativelanguage_v1beta\\types\\tuned_model.py',
+   'PYMODULE'),
+  ('google.api', '-', 'PYMODULE'),
+  ('google.api.annotations_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api\\annotations_pb2.py',
+   'PYMODULE'),
+  ('google.api.client_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api\\client_pb2.py',
+   'PYMODULE'),
+  ('google.api.http_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api\\http_pb2.py',
+   'PYMODULE'),
+  ('google.api.launch_stage_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api\\launch_stage_pb2.py',
+   'PYMODULE'),
+  ('google.api_core',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\__init__.py',
+   'PYMODULE'),
+  ('google.api_core._rest_streaming_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\_rest_streaming_base.py',
+   'PYMODULE'),
+  ('google.api_core.client_info',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\client_info.py',
+   'PYMODULE'),
+  ('google.api_core.client_logging',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\client_logging.py',
+   'PYMODULE'),
+  ('google.api_core.client_options',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\client_options.py',
+   'PYMODULE'),
+  ('google.api_core.datetime_helpers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\datetime_helpers.py',
+   'PYMODULE'),
+  ('google.api_core.exceptions',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\exceptions.py',
+   'PYMODULE'),
+  ('google.api_core.future',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\future\\__init__.py',
+   'PYMODULE'),
+  ('google.api_core.future._helpers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\future\\_helpers.py',
+   'PYMODULE'),
+  ('google.api_core.future.async_future',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\future\\async_future.py',
+   'PYMODULE'),
+  ('google.api_core.future.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\future\\base.py',
+   'PYMODULE'),
+  ('google.api_core.future.polling',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\future\\polling.py',
+   'PYMODULE'),
+  ('google.api_core.gapic_v1',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\gapic_v1\\__init__.py',
+   'PYMODULE'),
+  ('google.api_core.gapic_v1.client_info',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\gapic_v1\\client_info.py',
+   'PYMODULE'),
+  ('google.api_core.gapic_v1.config',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\gapic_v1\\config.py',
+   'PYMODULE'),
+  ('google.api_core.gapic_v1.config_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\gapic_v1\\config_async.py',
+   'PYMODULE'),
+  ('google.api_core.gapic_v1.method',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\gapic_v1\\method.py',
+   'PYMODULE'),
+  ('google.api_core.gapic_v1.method_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\gapic_v1\\method_async.py',
+   'PYMODULE'),
+  ('google.api_core.gapic_v1.routing_header',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\gapic_v1\\routing_header.py',
+   'PYMODULE'),
+  ('google.api_core.grpc_helpers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\grpc_helpers.py',
+   'PYMODULE'),
+  ('google.api_core.grpc_helpers_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\grpc_helpers_async.py',
+   'PYMODULE'),
+  ('google.api_core.operation',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operation.py',
+   'PYMODULE'),
+  ('google.api_core.operation_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operation_async.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\__init__.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.abstract_operations_base_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\abstract_operations_base_client.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.abstract_operations_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\abstract_operations_client.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.operations_async_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\operations_async_client.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.operations_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\operations_client.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.operations_rest_client_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\operations_rest_client_async.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.pagers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\pagers.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.pagers_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\pagers_async.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.pagers_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\pagers_base.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.transports',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\transports\\__init__.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.transports.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\transports\\base.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.transports.rest',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\transports\\rest.py',
+   'PYMODULE'),
+  ('google.api_core.operations_v1.transports.rest_asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\operations_v1\\transports\\rest_asyncio.py',
+   'PYMODULE'),
+  ('google.api_core.page_iterator',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\page_iterator.py',
+   'PYMODULE'),
+  ('google.api_core.page_iterator_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\page_iterator_async.py',
+   'PYMODULE'),
+  ('google.api_core.path_template',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\path_template.py',
+   'PYMODULE'),
+  ('google.api_core.protobuf_helpers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\protobuf_helpers.py',
+   'PYMODULE'),
+  ('google.api_core.rest_helpers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\rest_helpers.py',
+   'PYMODULE'),
+  ('google.api_core.rest_streaming',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\rest_streaming.py',
+   'PYMODULE'),
+  ('google.api_core.retry',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\retry\\__init__.py',
+   'PYMODULE'),
+  ('google.api_core.retry.retry_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\retry\\retry_base.py',
+   'PYMODULE'),
+  ('google.api_core.retry.retry_streaming',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\retry\\retry_streaming.py',
+   'PYMODULE'),
+  ('google.api_core.retry.retry_streaming_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\retry\\retry_streaming_async.py',
+   'PYMODULE'),
+  ('google.api_core.retry.retry_unary',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\retry\\retry_unary.py',
+   'PYMODULE'),
+  ('google.api_core.retry.retry_unary_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\retry\\retry_unary_async.py',
+   'PYMODULE'),
+  ('google.api_core.retry_async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\retry_async.py',
+   'PYMODULE'),
+  ('google.api_core.timeout',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\timeout.py',
+   'PYMODULE'),
+  ('google.api_core.universe',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\universe.py',
+   'PYMODULE'),
+  ('google.api_core.version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\version.py',
+   'PYMODULE'),
+  ('google.api_core.version_header',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\api_core\\version_header.py',
+   'PYMODULE'),
+  ('google.auth',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\__init__.py',
+   'PYMODULE'),
+  ('google.auth._cloud_sdk',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\_cloud_sdk.py',
+   'PYMODULE'),
+  ('google.auth._credentials_base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\_credentials_base.py',
+   'PYMODULE'),
+  ('google.auth._default',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\_default.py',
+   'PYMODULE'),
+  ('google.auth._exponential_backoff',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\_exponential_backoff.py',
+   'PYMODULE'),
+  ('google.auth._helpers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\_helpers.py',
+   'PYMODULE'),
+  ('google.auth._refresh_worker',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\_refresh_worker.py',
+   'PYMODULE'),
+  ('google.auth._service_account_info',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\_service_account_info.py',
+   'PYMODULE'),
+  ('google.auth.aio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\aio\\__init__.py',
+   'PYMODULE'),
+  ('google.auth.aio.credentials',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\aio\\credentials.py',
+   'PYMODULE'),
+  ('google.auth.aio.transport',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\aio\\transport\\__init__.py',
+   'PYMODULE'),
+  ('google.auth.aio.transport.aiohttp',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\aio\\transport\\aiohttp.py',
+   'PYMODULE'),
+  ('google.auth.aio.transport.sessions',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\aio\\transport\\sessions.py',
+   'PYMODULE'),
+  ('google.auth.api_key',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\api_key.py',
+   'PYMODULE'),
+  ('google.auth.app_engine',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\app_engine.py',
+   'PYMODULE'),
+  ('google.auth.aws',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\aws.py',
+   'PYMODULE'),
+  ('google.auth.compute_engine',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\compute_engine\\__init__.py',
+   'PYMODULE'),
+  ('google.auth.compute_engine._metadata',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\compute_engine\\_metadata.py',
+   'PYMODULE'),
+  ('google.auth.compute_engine.credentials',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\compute_engine\\credentials.py',
+   'PYMODULE'),
+  ('google.auth.credentials',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\credentials.py',
+   'PYMODULE'),
+  ('google.auth.crypt',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\crypt\\__init__.py',
+   'PYMODULE'),
+  ('google.auth.crypt._cryptography_rsa',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\crypt\\_cryptography_rsa.py',
+   'PYMODULE'),
+  ('google.auth.crypt._python_rsa',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\crypt\\_python_rsa.py',
+   'PYMODULE'),
+  ('google.auth.crypt.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\crypt\\base.py',
+   'PYMODULE'),
+  ('google.auth.crypt.es256',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\crypt\\es256.py',
+   'PYMODULE'),
+  ('google.auth.crypt.rsa',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\crypt\\rsa.py',
+   'PYMODULE'),
+  ('google.auth.environment_vars',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\environment_vars.py',
+   'PYMODULE'),
+  ('google.auth.exceptions',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\exceptions.py',
+   'PYMODULE'),
+  ('google.auth.external_account',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\external_account.py',
+   'PYMODULE'),
+  ('google.auth.external_account_authorized_user',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\external_account_authorized_user.py',
+   'PYMODULE'),
+  ('google.auth.iam',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\iam.py',
+   'PYMODULE'),
+  ('google.auth.identity_pool',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\identity_pool.py',
+   'PYMODULE'),
+  ('google.auth.impersonated_credentials',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\impersonated_credentials.py',
+   'PYMODULE'),
+  ('google.auth.jwt',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\jwt.py',
+   'PYMODULE'),
+  ('google.auth.metrics',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\metrics.py',
+   'PYMODULE'),
+  ('google.auth.pluggable',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\pluggable.py',
+   'PYMODULE'),
+  ('google.auth.transport',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\transport\\__init__.py',
+   'PYMODULE'),
+  ('google.auth.transport._custom_tls_signer',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\transport\\_custom_tls_signer.py',
+   'PYMODULE'),
+  ('google.auth.transport._http_client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\transport\\_http_client.py',
+   'PYMODULE'),
+  ('google.auth.transport._mtls_helper',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\transport\\_mtls_helper.py',
+   'PYMODULE'),
+  ('google.auth.transport.grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\transport\\grpc.py',
+   'PYMODULE'),
+  ('google.auth.transport.mtls',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\transport\\mtls.py',
+   'PYMODULE'),
+  ('google.auth.transport.requests',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\transport\\requests.py',
+   'PYMODULE'),
+  ('google.auth.version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\auth\\version.py',
+   'PYMODULE'),
+  ('google.generativeai',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\__init__.py',
+   'PYMODULE'),
+  ('google.generativeai.caching',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\caching.py',
+   'PYMODULE'),
+  ('google.generativeai.client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\client.py',
+   'PYMODULE'),
+  ('google.generativeai.embedding',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\embedding.py',
+   'PYMODULE'),
+  ('google.generativeai.files',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\files.py',
+   'PYMODULE'),
+  ('google.generativeai.generative_models',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\generative_models.py',
+   'PYMODULE'),
+  ('google.generativeai.models',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\models.py',
+   'PYMODULE'),
+  ('google.generativeai.operations',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\operations.py',
+   'PYMODULE'),
+  ('google.generativeai.protos',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\protos.py',
+   'PYMODULE'),
+  ('google.generativeai.responder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\responder.py',
+   'PYMODULE'),
+  ('google.generativeai.string_utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\string_utils.py',
+   'PYMODULE'),
+  ('google.generativeai.types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\__init__.py',
+   'PYMODULE'),
+  ('google.generativeai.types.caching_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\caching_types.py',
+   'PYMODULE'),
+  ('google.generativeai.types.citation_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\citation_types.py',
+   'PYMODULE'),
+  ('google.generativeai.types.content_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\content_types.py',
+   'PYMODULE'),
+  ('google.generativeai.types.file_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\file_types.py',
+   'PYMODULE'),
+  ('google.generativeai.types.generation_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\generation_types.py',
+   'PYMODULE'),
+  ('google.generativeai.types.helper_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\helper_types.py',
+   'PYMODULE'),
+  ('google.generativeai.types.model_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\model_types.py',
+   'PYMODULE'),
+  ('google.generativeai.types.permission_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\permission_types.py',
+   'PYMODULE'),
+  ('google.generativeai.types.safety_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\safety_types.py',
+   'PYMODULE'),
+  ('google.generativeai.types.text_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\types\\text_types.py',
+   'PYMODULE'),
+  ('google.generativeai.utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\utils.py',
+   'PYMODULE'),
+  ('google.generativeai.version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\generativeai\\version.py',
+   'PYMODULE'),
+  ('google.longrunning', '-', 'PYMODULE'),
+  ('google.longrunning.operations_grpc_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\longrunning\\operations_grpc_pb2.py',
+   'PYMODULE'),
+  ('google.longrunning.operations_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\longrunning\\operations_pb2.py',
+   'PYMODULE'),
+  ('google.longrunning.operations_pb2_grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\longrunning\\operations_pb2_grpc.py',
+   'PYMODULE'),
+  ('google.longrunning.operations_proto_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\longrunning\\operations_proto_pb2.py',
+   'PYMODULE'),
+  ('google.oauth2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\__init__.py',
+   'PYMODULE'),
+  ('google.oauth2._client',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\_client.py',
+   'PYMODULE'),
+  ('google.oauth2.challenges',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\challenges.py',
+   'PYMODULE'),
+  ('google.oauth2.credentials',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\credentials.py',
+   'PYMODULE'),
+  ('google.oauth2.gdch_credentials',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\gdch_credentials.py',
+   'PYMODULE'),
+  ('google.oauth2.reauth',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\reauth.py',
+   'PYMODULE'),
+  ('google.oauth2.service_account',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\service_account.py',
+   'PYMODULE'),
+  ('google.oauth2.sts',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\sts.py',
+   'PYMODULE'),
+  ('google.oauth2.utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\utils.py',
+   'PYMODULE'),
+  ('google.oauth2.webauthn_handler',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\webauthn_handler.py',
+   'PYMODULE'),
+  ('google.oauth2.webauthn_handler_factory',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\webauthn_handler_factory.py',
+   'PYMODULE'),
+  ('google.oauth2.webauthn_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\oauth2\\webauthn_types.py',
+   'PYMODULE'),
+  ('google.protobuf',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\__init__.py',
+   'PYMODULE'),
+  ('google.protobuf.any_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\any_pb2.py',
+   'PYMODULE'),
+  ('google.protobuf.descriptor',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\descriptor.py',
+   'PYMODULE'),
+  ('google.protobuf.descriptor_database',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\descriptor_database.py',
+   'PYMODULE'),
+  ('google.protobuf.descriptor_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\descriptor_pb2.py',
+   'PYMODULE'),
+  ('google.protobuf.descriptor_pool',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\descriptor_pool.py',
+   'PYMODULE'),
+  ('google.protobuf.duration_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\duration_pb2.py',
+   'PYMODULE'),
+  ('google.protobuf.empty_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\empty_pb2.py',
+   'PYMODULE'),
+  ('google.protobuf.field_mask_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\field_mask_pb2.py',
+   'PYMODULE'),
+  ('google.protobuf.internal',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\__init__.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.api_implementation',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\api_implementation.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.builder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\builder.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.containers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\containers.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.decoder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\decoder.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.encoder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\encoder.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.enum_type_wrapper',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\enum_type_wrapper.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.extension_dict',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\extension_dict.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.field_mask',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\field_mask.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.message_listener',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\message_listener.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.python_edition_defaults',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\python_edition_defaults.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.python_message',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\python_message.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.type_checkers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\type_checkers.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.well_known_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\well_known_types.py',
+   'PYMODULE'),
+  ('google.protobuf.internal.wire_format',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\internal\\wire_format.py',
+   'PYMODULE'),
+  ('google.protobuf.json_format',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\json_format.py',
+   'PYMODULE'),
+  ('google.protobuf.message',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\message.py',
+   'PYMODULE'),
+  ('google.protobuf.message_factory',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\message_factory.py',
+   'PYMODULE'),
+  ('google.protobuf.pyext',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\pyext\\__init__.py',
+   'PYMODULE'),
+  ('google.protobuf.pyext.cpp_message',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\pyext\\cpp_message.py',
+   'PYMODULE'),
+  ('google.protobuf.reflection',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\reflection.py',
+   'PYMODULE'),
+  ('google.protobuf.runtime_version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\runtime_version.py',
+   'PYMODULE'),
+  ('google.protobuf.service_reflection',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\service_reflection.py',
+   'PYMODULE'),
+  ('google.protobuf.struct_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\struct_pb2.py',
+   'PYMODULE'),
+  ('google.protobuf.symbol_database',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\symbol_database.py',
+   'PYMODULE'),
+  ('google.protobuf.text_encoding',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\text_encoding.py',
+   'PYMODULE'),
+  ('google.protobuf.text_format',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\text_format.py',
+   'PYMODULE'),
+  ('google.protobuf.timestamp_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\timestamp_pb2.py',
+   'PYMODULE'),
+  ('google.protobuf.unknown_fields',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\unknown_fields.py',
+   'PYMODULE'),
+  ('google.protobuf.wrappers_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\protobuf\\wrappers_pb2.py',
+   'PYMODULE'),
+  ('google.rpc', '-', 'PYMODULE'),
+  ('google.rpc.code_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\rpc\\code_pb2.py',
+   'PYMODULE'),
+  ('google.rpc.error_details_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\rpc\\error_details_pb2.py',
+   'PYMODULE'),
+  ('google.rpc.status_pb2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google\\rpc\\status_pb2.py',
+   'PYMODULE'),
+  ('google_auth_httplib2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\google_auth_httplib2.py',
+   'PYMODULE'),
+  ('googleapiclient',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\__init__.py',
+   'PYMODULE'),
+  ('googleapiclient._auth',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\_auth.py',
+   'PYMODULE'),
+  ('googleapiclient._helpers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\_helpers.py',
+   'PYMODULE'),
+  ('googleapiclient.discovery',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\discovery.py',
+   'PYMODULE'),
+  ('googleapiclient.discovery_cache',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\discovery_cache\\__init__.py',
+   'PYMODULE'),
+  ('googleapiclient.discovery_cache.appengine_memcache',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\discovery_cache\\appengine_memcache.py',
+   'PYMODULE'),
+  ('googleapiclient.discovery_cache.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\discovery_cache\\base.py',
+   'PYMODULE'),
+  ('googleapiclient.discovery_cache.file_cache',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\discovery_cache\\file_cache.py',
+   'PYMODULE'),
+  ('googleapiclient.errors',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\errors.py',
+   'PYMODULE'),
+  ('googleapiclient.http',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\http.py',
+   'PYMODULE'),
+  ('googleapiclient.mimeparse',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\mimeparse.py',
+   'PYMODULE'),
+  ('googleapiclient.model',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\model.py',
+   'PYMODULE'),
+  ('googleapiclient.schema',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\schema.py',
+   'PYMODULE'),
+  ('googleapiclient.version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\googleapiclient\\version.py',
+   'PYMODULE'),
+  ('grpc',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\__init__.py',
+   'PYMODULE'),
+  ('grpc._auth',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_auth.py',
+   'PYMODULE'),
+  ('grpc._channel',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_channel.py',
+   'PYMODULE'),
+  ('grpc._common',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_common.py',
+   'PYMODULE'),
+  ('grpc._compression',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_compression.py',
+   'PYMODULE'),
+  ('grpc._cython',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_cython\\__init__.py',
+   'PYMODULE'),
+  ('grpc._grpcio_metadata',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_grpcio_metadata.py',
+   'PYMODULE'),
+  ('grpc._interceptor',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_interceptor.py',
+   'PYMODULE'),
+  ('grpc._observability',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_observability.py',
+   'PYMODULE'),
+  ('grpc._plugin_wrapping',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_plugin_wrapping.py',
+   'PYMODULE'),
+  ('grpc._runtime_protos',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_runtime_protos.py',
+   'PYMODULE'),
+  ('grpc._server',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_server.py',
+   'PYMODULE'),
+  ('grpc._simple_stubs',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_simple_stubs.py',
+   'PYMODULE'),
+  ('grpc._typing',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_typing.py',
+   'PYMODULE'),
+  ('grpc._utilities',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\_utilities.py',
+   'PYMODULE'),
+  ('grpc.aio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\__init__.py',
+   'PYMODULE'),
+  ('grpc.aio._base_call',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_base_call.py',
+   'PYMODULE'),
+  ('grpc.aio._base_channel',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_base_channel.py',
+   'PYMODULE'),
+  ('grpc.aio._base_server',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_base_server.py',
+   'PYMODULE'),
+  ('grpc.aio._call',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_call.py',
+   'PYMODULE'),
+  ('grpc.aio._channel',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_channel.py',
+   'PYMODULE'),
+  ('grpc.aio._interceptor',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_interceptor.py',
+   'PYMODULE'),
+  ('grpc.aio._metadata',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_metadata.py',
+   'PYMODULE'),
+  ('grpc.aio._server',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_server.py',
+   'PYMODULE'),
+  ('grpc.aio._typing',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_typing.py',
+   'PYMODULE'),
+  ('grpc.aio._utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\aio\\_utils.py',
+   'PYMODULE'),
+  ('grpc.experimental',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\experimental\\__init__.py',
+   'PYMODULE'),
+  ('grpc.experimental.aio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc\\experimental\\aio\\__init__.py',
+   'PYMODULE'),
+  ('grpc_status',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc_status\\__init__.py',
+   'PYMODULE'),
+  ('grpc_status._async',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc_status\\_async.py',
+   'PYMODULE'),
+  ('grpc_status._common',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc_status\\_common.py',
+   'PYMODULE'),
+  ('grpc_status.rpc_status',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\grpc_status\\rpc_status.py',
+   'PYMODULE'),
   ('gzip', 'C:\\Python312\\Lib\\gzip.py', 'PYMODULE'),
   ('hashlib', 'C:\\Python312\\Lib\\hashlib.py', 'PYMODULE'),
   ('hmac', 'C:\\Python312\\Lib\\hmac.py', 'PYMODULE'),
@@ -372,7 +1848,56 @@
   ('http', 'C:\\Python312\\Lib\\http\\__init__.py', 'PYMODULE'),
   ('http.client', 'C:\\Python312\\Lib\\http\\client.py', 'PYMODULE'),
   ('http.cookiejar', 'C:\\Python312\\Lib\\http\\cookiejar.py', 'PYMODULE'),
+  ('http.cookies', 'C:\\Python312\\Lib\\http\\cookies.py', 'PYMODULE'),
   ('http.server', 'C:\\Python312\\Lib\\http\\server.py', 'PYMODULE'),
+  ('httplib2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\httplib2\\__init__.py',
+   'PYMODULE'),
+  ('httplib2.auth',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\httplib2\\auth.py',
+   'PYMODULE'),
+  ('httplib2.certs',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\httplib2\\certs.py',
+   'PYMODULE'),
+  ('httplib2.error',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\httplib2\\error.py',
+   'PYMODULE'),
+  ('httplib2.iri2uri',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\httplib2\\iri2uri.py',
+   'PYMODULE'),
+  ('httplib2.socks',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\httplib2\\socks.py',
+   'PYMODULE'),
+  ('idna',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\idna\\__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\idna\\core.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\idna\\idnadata.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\idna\\intranges.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\idna\\package_data.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\idna\\uts46data.py',
+   'PYMODULE'),
   ('importlib', 'C:\\Python312\\Lib\\importlib\\__init__.py', 'PYMODULE'),
   ('importlib._abc', 'C:\\Python312\\Lib\\importlib\\_abc.py', 'PYMODULE'),
   ('importlib._bootstrap',
@@ -579,6 +2104,7 @@
    'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\packaging\\version.py',
    'PYMODULE'),
   ('pathlib', 'C:\\Python312\\Lib\\pathlib.py', 'PYMODULE'),
+  ('pdb', 'C:\\Python312\\Lib\\pdb.py', 'PYMODULE'),
   ('pickle', 'C:\\Python312\\Lib\\pickle.py', 'PYMODULE'),
   ('pkg_resources',
    'C:\\My '
@@ -588,16 +2114,748 @@
   ('platform', 'C:\\Python312\\Lib\\platform.py', 'PYMODULE'),
   ('plistlib', 'C:\\Python312\\Lib\\plistlib.py', 'PYMODULE'),
   ('pprint', 'C:\\Python312\\Lib\\pprint.py', 'PYMODULE'),
+  ('proto',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\__init__.py',
+   'PYMODULE'),
+  ('proto._file_info',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\_file_info.py',
+   'PYMODULE'),
+  ('proto._package_info',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\_package_info.py',
+   'PYMODULE'),
+  ('proto.datetime_helpers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\datetime_helpers.py',
+   'PYMODULE'),
+  ('proto.enums',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\enums.py',
+   'PYMODULE'),
+  ('proto.fields',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\fields.py',
+   'PYMODULE'),
+  ('proto.marshal',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\__init__.py',
+   'PYMODULE'),
+  ('proto.marshal.collections',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\collections\\__init__.py',
+   'PYMODULE'),
+  ('proto.marshal.collections.maps',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\collections\\maps.py',
+   'PYMODULE'),
+  ('proto.marshal.collections.repeated',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\collections\\repeated.py',
+   'PYMODULE'),
+  ('proto.marshal.compat',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\compat.py',
+   'PYMODULE'),
+  ('proto.marshal.marshal',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\marshal.py',
+   'PYMODULE'),
+  ('proto.marshal.rules',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\rules\\__init__.py',
+   'PYMODULE'),
+  ('proto.marshal.rules.bytes',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\rules\\bytes.py',
+   'PYMODULE'),
+  ('proto.marshal.rules.dates',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\rules\\dates.py',
+   'PYMODULE'),
+  ('proto.marshal.rules.enums',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\rules\\enums.py',
+   'PYMODULE'),
+  ('proto.marshal.rules.field_mask',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\rules\\field_mask.py',
+   'PYMODULE'),
+  ('proto.marshal.rules.message',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\rules\\message.py',
+   'PYMODULE'),
+  ('proto.marshal.rules.stringy_numbers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\rules\\stringy_numbers.py',
+   'PYMODULE'),
+  ('proto.marshal.rules.struct',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\rules\\struct.py',
+   'PYMODULE'),
+  ('proto.marshal.rules.wrappers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\marshal\\rules\\wrappers.py',
+   'PYMODULE'),
+  ('proto.message',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\message.py',
+   'PYMODULE'),
+  ('proto.modules',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\modules.py',
+   'PYMODULE'),
+  ('proto.primitives',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\primitives.py',
+   'PYMODULE'),
+  ('proto.utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\utils.py',
+   'PYMODULE'),
+  ('proto.version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\proto\\version.py',
+   'PYMODULE'),
   ('py_compile', 'C:\\Python312\\Lib\\py_compile.py', 'PYMODULE'),
+  ('pyasn1',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\__init__.py',
+   'PYMODULE'),
+  ('pyasn1.codec',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\__init__.py',
+   'PYMODULE'),
+  ('pyasn1.codec.ber',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\ber\\__init__.py',
+   'PYMODULE'),
+  ('pyasn1.codec.ber.decoder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\ber\\decoder.py',
+   'PYMODULE'),
+  ('pyasn1.codec.ber.encoder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\ber\\encoder.py',
+   'PYMODULE'),
+  ('pyasn1.codec.ber.eoo',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\ber\\eoo.py',
+   'PYMODULE'),
+  ('pyasn1.codec.cer',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\cer\\__init__.py',
+   'PYMODULE'),
+  ('pyasn1.codec.cer.decoder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\cer\\decoder.py',
+   'PYMODULE'),
+  ('pyasn1.codec.cer.encoder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\cer\\encoder.py',
+   'PYMODULE'),
+  ('pyasn1.codec.der',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\der\\__init__.py',
+   'PYMODULE'),
+  ('pyasn1.codec.der.decoder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\der\\decoder.py',
+   'PYMODULE'),
+  ('pyasn1.codec.der.encoder',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\der\\encoder.py',
+   'PYMODULE'),
+  ('pyasn1.codec.streaming',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\codec\\streaming.py',
+   'PYMODULE'),
+  ('pyasn1.compat',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\compat\\__init__.py',
+   'PYMODULE'),
+  ('pyasn1.compat.integer',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\compat\\integer.py',
+   'PYMODULE'),
+  ('pyasn1.debug',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\debug.py',
+   'PYMODULE'),
+  ('pyasn1.error',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\error.py',
+   'PYMODULE'),
+  ('pyasn1.type',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\__init__.py',
+   'PYMODULE'),
+  ('pyasn1.type.base',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\base.py',
+   'PYMODULE'),
+  ('pyasn1.type.char',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\char.py',
+   'PYMODULE'),
+  ('pyasn1.type.constraint',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\constraint.py',
+   'PYMODULE'),
+  ('pyasn1.type.error',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\error.py',
+   'PYMODULE'),
+  ('pyasn1.type.namedtype',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\namedtype.py',
+   'PYMODULE'),
+  ('pyasn1.type.namedval',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\namedval.py',
+   'PYMODULE'),
+  ('pyasn1.type.opentype',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\opentype.py',
+   'PYMODULE'),
+  ('pyasn1.type.tag',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\tag.py',
+   'PYMODULE'),
+  ('pyasn1.type.tagmap',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\tagmap.py',
+   'PYMODULE'),
+  ('pyasn1.type.univ',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\univ.py',
+   'PYMODULE'),
+  ('pyasn1.type.useful',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1\\type\\useful.py',
+   'PYMODULE'),
+  ('pyasn1_modules',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1_modules\\__init__.py',
+   'PYMODULE'),
+  ('pyasn1_modules.pem',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1_modules\\pem.py',
+   'PYMODULE'),
+  ('pyasn1_modules.rfc2251',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1_modules\\rfc2251.py',
+   'PYMODULE'),
+  ('pyasn1_modules.rfc2459',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1_modules\\rfc2459.py',
+   'PYMODULE'),
+  ('pyasn1_modules.rfc5208',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyasn1_modules\\rfc5208.py',
+   'PYMODULE'),
+  ('pydantic',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\__init__.py',
+   'PYMODULE'),
+  ('pydantic._internal',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\__init__.py',
+   'PYMODULE'),
+  ('pydantic._internal._config',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_config.py',
+   'PYMODULE'),
+  ('pydantic._internal._core_metadata',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_core_metadata.py',
+   'PYMODULE'),
+  ('pydantic._internal._core_utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_core_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._dataclasses',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_dataclasses.py',
+   'PYMODULE'),
+  ('pydantic._internal._decorators',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_decorators.py',
+   'PYMODULE'),
+  ('pydantic._internal._decorators_v1',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_decorators_v1.py',
+   'PYMODULE'),
+  ('pydantic._internal._discriminated_union',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_discriminated_union.py',
+   'PYMODULE'),
+  ('pydantic._internal._docs_extraction',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_docs_extraction.py',
+   'PYMODULE'),
+  ('pydantic._internal._fields',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_fields.py',
+   'PYMODULE'),
+  ('pydantic._internal._forward_ref',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_forward_ref.py',
+   'PYMODULE'),
+  ('pydantic._internal._generate_schema',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_generate_schema.py',
+   'PYMODULE'),
+  ('pydantic._internal._generics',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_generics.py',
+   'PYMODULE'),
+  ('pydantic._internal._git',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_git.py',
+   'PYMODULE'),
+  ('pydantic._internal._import_utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_import_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._internal_dataclass',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_internal_dataclass.py',
+   'PYMODULE'),
+  ('pydantic._internal._known_annotated_metadata',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_known_annotated_metadata.py',
+   'PYMODULE'),
+  ('pydantic._internal._mock_val_ser',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_mock_val_ser.py',
+   'PYMODULE'),
+  ('pydantic._internal._model_construction',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_model_construction.py',
+   'PYMODULE'),
+  ('pydantic._internal._namespace_utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_namespace_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._repr',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_repr.py',
+   'PYMODULE'),
+  ('pydantic._internal._schema_generation_shared',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_schema_generation_shared.py',
+   'PYMODULE'),
+  ('pydantic._internal._serializers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_serializers.py',
+   'PYMODULE'),
+  ('pydantic._internal._signature',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_signature.py',
+   'PYMODULE'),
+  ('pydantic._internal._std_types_schema',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_std_types_schema.py',
+   'PYMODULE'),
+  ('pydantic._internal._typing_extra',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_typing_extra.py',
+   'PYMODULE'),
+  ('pydantic._internal._utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_utils.py',
+   'PYMODULE'),
+  ('pydantic._internal._validate_call',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_validate_call.py',
+   'PYMODULE'),
+  ('pydantic._internal._validators',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_internal\\_validators.py',
+   'PYMODULE'),
+  ('pydantic._migration',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\_migration.py',
+   'PYMODULE'),
+  ('pydantic.aliases',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\aliases.py',
+   'PYMODULE'),
+  ('pydantic.annotated_handlers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\annotated_handlers.py',
+   'PYMODULE'),
+  ('pydantic.color',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\color.py',
+   'PYMODULE'),
+  ('pydantic.config',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\config.py',
+   'PYMODULE'),
+  ('pydantic.dataclasses',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\dataclasses.py',
+   'PYMODULE'),
+  ('pydantic.deprecated',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\deprecated\\__init__.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.class_validators',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\deprecated\\class_validators.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.config',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\deprecated\\config.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.copy_internals',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\deprecated\\copy_internals.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.json',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\deprecated\\json.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.parse',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\deprecated\\parse.py',
+   'PYMODULE'),
+  ('pydantic.deprecated.tools',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\deprecated\\tools.py',
+   'PYMODULE'),
+  ('pydantic.errors',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\errors.py',
+   'PYMODULE'),
+  ('pydantic.fields',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\fields.py',
+   'PYMODULE'),
+  ('pydantic.functional_serializers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\functional_serializers.py',
+   'PYMODULE'),
+  ('pydantic.functional_validators',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\functional_validators.py',
+   'PYMODULE'),
+  ('pydantic.json_schema',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\json_schema.py',
+   'PYMODULE'),
+  ('pydantic.main',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\main.py',
+   'PYMODULE'),
+  ('pydantic.networks',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\networks.py',
+   'PYMODULE'),
+  ('pydantic.plugin',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\plugin\\__init__.py',
+   'PYMODULE'),
+  ('pydantic.plugin._loader',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\plugin\\_loader.py',
+   'PYMODULE'),
+  ('pydantic.plugin._schema_validator',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\plugin\\_schema_validator.py',
+   'PYMODULE'),
+  ('pydantic.root_model',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\root_model.py',
+   'PYMODULE'),
+  ('pydantic.type_adapter',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\type_adapter.py',
+   'PYMODULE'),
+  ('pydantic.types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\types.py',
+   'PYMODULE'),
+  ('pydantic.v1',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\__init__.py',
+   'PYMODULE'),
+  ('pydantic.v1.annotated_types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\annotated_types.py',
+   'PYMODULE'),
+  ('pydantic.v1.class_validators',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\class_validators.py',
+   'PYMODULE'),
+  ('pydantic.v1.color',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\color.py',
+   'PYMODULE'),
+  ('pydantic.v1.config',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\config.py',
+   'PYMODULE'),
+  ('pydantic.v1.dataclasses',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\dataclasses.py',
+   'PYMODULE'),
+  ('pydantic.v1.datetime_parse',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\datetime_parse.py',
+   'PYMODULE'),
+  ('pydantic.v1.decorator',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\decorator.py',
+   'PYMODULE'),
+  ('pydantic.v1.env_settings',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\env_settings.py',
+   'PYMODULE'),
+  ('pydantic.v1.error_wrappers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\error_wrappers.py',
+   'PYMODULE'),
+  ('pydantic.v1.errors',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\errors.py',
+   'PYMODULE'),
+  ('pydantic.v1.fields',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\fields.py',
+   'PYMODULE'),
+  ('pydantic.v1.json',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\json.py',
+   'PYMODULE'),
+  ('pydantic.v1.main',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\main.py',
+   'PYMODULE'),
+  ('pydantic.v1.networks',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\networks.py',
+   'PYMODULE'),
+  ('pydantic.v1.parse',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\parse.py',
+   'PYMODULE'),
+  ('pydantic.v1.schema',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\schema.py',
+   'PYMODULE'),
+  ('pydantic.v1.tools',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\tools.py',
+   'PYMODULE'),
+  ('pydantic.v1.types',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\types.py',
+   'PYMODULE'),
+  ('pydantic.v1.typing',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\typing.py',
+   'PYMODULE'),
+  ('pydantic.v1.utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\utils.py',
+   'PYMODULE'),
+  ('pydantic.v1.validators',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\validators.py',
+   'PYMODULE'),
+  ('pydantic.v1.version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\v1\\version.py',
+   'PYMODULE'),
+  ('pydantic.validate_call_decorator',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\validate_call_decorator.py',
+   'PYMODULE'),
+  ('pydantic.version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\version.py',
+   'PYMODULE'),
+  ('pydantic.warnings',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic\\warnings.py',
+   'PYMODULE'),
+  ('pydantic_core',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic_core\\__init__.py',
+   'PYMODULE'),
+  ('pydantic_core.core_schema',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pydantic_core\\core_schema.py',
+   'PYMODULE'),
   ('pydoc', 'C:\\Python312\\Lib\\pydoc.py', 'PYMODULE'),
   ('pydoc_data', 'C:\\Python312\\Lib\\pydoc_data\\__init__.py', 'PYMODULE'),
   ('pydoc_data.topics',
    'C:\\Python312\\Lib\\pydoc_data\\topics.py',
    'PYMODULE'),
+  ('pyparsing',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\__init__.py',
+   'PYMODULE'),
+  ('pyparsing.actions',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\actions.py',
+   'PYMODULE'),
+  ('pyparsing.common',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\common.py',
+   'PYMODULE'),
+  ('pyparsing.core',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\core.py',
+   'PYMODULE'),
+  ('pyparsing.diagram',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\diagram\\__init__.py',
+   'PYMODULE'),
+  ('pyparsing.exceptions',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\exceptions.py',
+   'PYMODULE'),
+  ('pyparsing.helpers',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\helpers.py',
+   'PYMODULE'),
+  ('pyparsing.results',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\results.py',
+   'PYMODULE'),
+  ('pyparsing.testing',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\testing.py',
+   'PYMODULE'),
+  ('pyparsing.unicode',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\unicode.py',
+   'PYMODULE'),
+  ('pyparsing.util',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\pyparsing\\util.py',
+   'PYMODULE'),
   ('queue', 'C:\\Python312\\Lib\\queue.py', 'PYMODULE'),
   ('quopri', 'C:\\Python312\\Lib\\quopri.py', 'PYMODULE'),
   ('random', 'C:\\Python312\\Lib\\random.py', 'PYMODULE'),
+  ('requests',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\__init__.py',
+   'PYMODULE'),
+  ('requests.__version__',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\__version__.py',
+   'PYMODULE'),
+  ('requests._internal_utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\_internal_utils.py',
+   'PYMODULE'),
+  ('requests.adapters',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\adapters.py',
+   'PYMODULE'),
+  ('requests.api',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\api.py',
+   'PYMODULE'),
+  ('requests.auth',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\auth.py',
+   'PYMODULE'),
+  ('requests.certs',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\certs.py',
+   'PYMODULE'),
+  ('requests.compat',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\compat.py',
+   'PYMODULE'),
+  ('requests.cookies',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\cookies.py',
+   'PYMODULE'),
+  ('requests.exceptions',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\exceptions.py',
+   'PYMODULE'),
+  ('requests.hooks',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\hooks.py',
+   'PYMODULE'),
+  ('requests.models',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\models.py',
+   'PYMODULE'),
+  ('requests.packages',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\packages.py',
+   'PYMODULE'),
+  ('requests.sessions',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\sessions.py',
+   'PYMODULE'),
+  ('requests.status_codes',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\status_codes.py',
+   'PYMODULE'),
+  ('requests.structures',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\structures.py',
+   'PYMODULE'),
+  ('requests.utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\requests\\utils.py',
+   'PYMODULE'),
   ('rlcompleter', 'C:\\Python312\\Lib\\rlcompleter.py', 'PYMODULE'),
+  ('rsa',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\__init__.py',
+   'PYMODULE'),
+  ('rsa.asn1',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\asn1.py',
+   'PYMODULE'),
+  ('rsa.common',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\common.py',
+   'PYMODULE'),
+  ('rsa.core',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\core.py',
+   'PYMODULE'),
+  ('rsa.key',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\key.py',
+   'PYMODULE'),
+  ('rsa.parallel',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\parallel.py',
+   'PYMODULE'),
+  ('rsa.pem',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\pem.py',
+   'PYMODULE'),
+  ('rsa.pkcs1',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\pkcs1.py',
+   'PYMODULE'),
+  ('rsa.prime',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\prime.py',
+   'PYMODULE'),
+  ('rsa.randnum',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\randnum.py',
+   'PYMODULE'),
+  ('rsa.transform',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\rsa\\transform.py',
+   'PYMODULE'),
   ('runpy', 'C:\\Python312\\Lib\\runpy.py', 'PYMODULE'),
   ('secrets', 'C:\\Python312\\Lib\\secrets.py', 'PYMODULE'),
   ('selectors', 'C:\\Python312\\Lib\\selectors.py', 'PYMODULE'),
@@ -1264,12 +3522,64 @@
   ('tomllib._parser', 'C:\\Python312\\Lib\\tomllib\\_parser.py', 'PYMODULE'),
   ('tomllib._re', 'C:\\Python312\\Lib\\tomllib\\_re.py', 'PYMODULE'),
   ('tomllib._types', 'C:\\Python312\\Lib\\tomllib\\_types.py', 'PYMODULE'),
+  ('tqdm',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\__init__.py',
+   'PYMODULE'),
+  ('tqdm._dist_ver',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\_dist_ver.py',
+   'PYMODULE'),
+  ('tqdm._monitor',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\_monitor.py',
+   'PYMODULE'),
+  ('tqdm._tqdm_pandas',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\_tqdm_pandas.py',
+   'PYMODULE'),
+  ('tqdm.asyncio',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\asyncio.py',
+   'PYMODULE'),
+  ('tqdm.auto',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\auto.py',
+   'PYMODULE'),
+  ('tqdm.autonotebook',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\autonotebook.py',
+   'PYMODULE'),
+  ('tqdm.cli',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\cli.py',
+   'PYMODULE'),
+  ('tqdm.gui',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\gui.py',
+   'PYMODULE'),
+  ('tqdm.notebook',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\notebook.py',
+   'PYMODULE'),
+  ('tqdm.std',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\std.py',
+   'PYMODULE'),
+  ('tqdm.utils',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\utils.py',
+   'PYMODULE'),
+  ('tqdm.version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\tqdm\\version.py',
+   'PYMODULE'),
   ('tracemalloc', 'C:\\Python312\\Lib\\tracemalloc.py', 'PYMODULE'),
   ('tty', 'C:\\Python312\\Lib\\tty.py', 'PYMODULE'),
   ('typing', 'C:\\Python312\\Lib\\typing.py', 'PYMODULE'),
   ('typing_extensions',
    'C:\\My '
-   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\setuptools\\_vendor\\typing_extensions.py',
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\typing_extensions.py',
    'PYMODULE'),
   ('unittest', 'C:\\Python312\\Lib\\unittest\\__init__.py', 'PYMODULE'),
   ('unittest._log', 'C:\\Python312\\Lib\\unittest\\_log.py', 'PYMODULE'),
@@ -1285,11 +3595,175 @@
   ('unittest.signals', 'C:\\Python312\\Lib\\unittest\\signals.py', 'PYMODULE'),
   ('unittest.suite', 'C:\\Python312\\Lib\\unittest\\suite.py', 'PYMODULE'),
   ('unittest.util', 'C:\\Python312\\Lib\\unittest\\util.py', 'PYMODULE'),
+  ('uritemplate',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\uritemplate\\__init__.py',
+   'PYMODULE'),
+  ('uritemplate.api',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\uritemplate\\api.py',
+   'PYMODULE'),
+  ('uritemplate.orderedset',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\uritemplate\\orderedset.py',
+   'PYMODULE'),
+  ('uritemplate.template',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\uritemplate\\template.py',
+   'PYMODULE'),
+  ('uritemplate.variable',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\uritemplate\\variable.py',
+   'PYMODULE'),
   ('urllib', 'C:\\Python312\\Lib\\urllib\\__init__.py', 'PYMODULE'),
   ('urllib.error', 'C:\\Python312\\Lib\\urllib\\error.py', 'PYMODULE'),
   ('urllib.parse', 'C:\\Python312\\Lib\\urllib\\parse.py', 'PYMODULE'),
   ('urllib.request', 'C:\\Python312\\Lib\\urllib\\request.py', 'PYMODULE'),
   ('urllib.response', 'C:\\Python312\\Lib\\urllib\\response.py', 'PYMODULE'),
+  ('urllib3',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\__init__.py',
+   'PYMODULE'),
+  ('urllib3._base_connection',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\_base_connection.py',
+   'PYMODULE'),
+  ('urllib3._collections',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\_collections.py',
+   'PYMODULE'),
+  ('urllib3._request_methods',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\_request_methods.py',
+   'PYMODULE'),
+  ('urllib3._version',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\_version.py',
+   'PYMODULE'),
+  ('urllib3.connection',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\connection.py',
+   'PYMODULE'),
+  ('urllib3.connectionpool',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\connectionpool.py',
+   'PYMODULE'),
+  ('urllib3.contrib',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\contrib\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.connection',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\connection.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.fetch',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\fetch.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.request',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\request.py',
+   'PYMODULE'),
+  ('urllib3.contrib.emscripten.response',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\contrib\\emscripten\\response.py',
+   'PYMODULE'),
+  ('urllib3.contrib.pyopenssl',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\contrib\\pyopenssl.py',
+   'PYMODULE'),
+  ('urllib3.contrib.socks',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\contrib\\socks.py',
+   'PYMODULE'),
+  ('urllib3.exceptions',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\exceptions.py',
+   'PYMODULE'),
+  ('urllib3.fields',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\fields.py',
+   'PYMODULE'),
+  ('urllib3.filepost',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\filepost.py',
+   'PYMODULE'),
+  ('urllib3.http2',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\http2\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.http2.connection',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\http2\\connection.py',
+   'PYMODULE'),
+  ('urllib3.http2.probe',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\http2\\probe.py',
+   'PYMODULE'),
+  ('urllib3.poolmanager',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\poolmanager.py',
+   'PYMODULE'),
+  ('urllib3.response',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\response.py',
+   'PYMODULE'),
+  ('urllib3.util',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\__init__.py',
+   'PYMODULE'),
+  ('urllib3.util.connection',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\connection.py',
+   'PYMODULE'),
+  ('urllib3.util.proxy',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\proxy.py',
+   'PYMODULE'),
+  ('urllib3.util.request',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\request.py',
+   'PYMODULE'),
+  ('urllib3.util.response',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\response.py',
+   'PYMODULE'),
+  ('urllib3.util.retry',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\retry.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\ssl_.py',
+   'PYMODULE'),
+  ('urllib3.util.ssl_match_hostname',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\ssl_match_hostname.py',
+   'PYMODULE'),
+  ('urllib3.util.ssltransport',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\ssltransport.py',
+   'PYMODULE'),
+  ('urllib3.util.timeout',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\timeout.py',
+   'PYMODULE'),
+  ('urllib3.util.url',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\url.py',
+   'PYMODULE'),
+  ('urllib3.util.util',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\util.py',
+   'PYMODULE'),
+  ('urllib3.util.wait',
+   'C:\\My '
+   'Workspace\\My_Projects\\Notepad\\venv\\Lib\\site-packages\\urllib3\\util\\wait.py',
+   'PYMODULE'),
   ('uuid', 'C:\\Python312\\Lib\\uuid.py', 'PYMODULE'),
   ('webbrowser', 'C:\\Python312\\Lib\\webbrowser.py', 'PYMODULE'),
   ('xml', 'C:\\Python312\\Lib\\xml\\__init__.py', 'PYMODULE'),
@@ -1318,4 +3792,10 @@
   ('zipfile._path.glob',
    'C:\\Python312\\Lib\\zipfile\\_path\\glob.py',
    'PYMODULE'),
-  ('zipimport', 'C:\\Python312\\Lib\\zipimport.py', 'PYMODULE')])
+  ('zipimport', 'C:\\Python312\\Lib\\zipimport.py', 'PYMODULE'),
+  ('zoneinfo', 'C:\\Python312\\Lib\\zoneinfo\\__init__.py', 'PYMODULE'),
+  ('zoneinfo._common', 'C:\\Python312\\Lib\\zoneinfo\\_common.py', 'PYMODULE'),
+  ('zoneinfo._tzpath', 'C:\\Python312\\Lib\\zoneinfo\\_tzpath.py', 'PYMODULE'),
+  ('zoneinfo._zoneinfo',
+   'C:\\Python312\\Lib\\zoneinfo\\_zoneinfo.py',
+   'PYMODULE')])
