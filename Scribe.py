@@ -1204,10 +1204,9 @@ class Scribe(ctk.CTk):
         try:
             
             if not self.scribe_assistant:
-                window_height = self.winfo_height()
                 self.scribe_assistant = ctk.CTkFrame(self, fg_color="#1c1c1c", bg_color="#1c1c1c", width=400, corner_radius=6)
                 
-                self.chat_display = ctk.CTkTextbox(self.scribe_assistant, corner_radius=5, width=285, height=(window_height-117), state="disabled", fg_color = "#131313", bg_color = "#1c1c1c", padx=10, pady=25)
+                self.chat_display = ctk.CTkTextbox(self.scribe_assistant, corner_radius=5, width=285, height=321, state="disabled", fg_color = "#131313", bg_color = "#1c1c1c", padx=10, pady=25)
                 self.gemini_logo = ctk.CTkLabel(self.chat_display, text=" ✨ ", width = 15, height = 10, fg_color = "#131313", bg_color = "#131313", text_color = "#9999FF")
                 self.close_assistant = ctk.CTkButton(self.chat_display, text=" X ", command = self.toggle_scribe_assistant, corner_radius = 3, width = 15, height = 12, fg_color = "#202020", bg_color = "#131313", text_color = "#9999FF", hover_color = "#424242", font = ('Comic Sans MS', 9, "bold"))
                 self.clear_chat_display = ctk.CTkButton(self.chat_display, text=" Clear ", command = self.clear_chat, corner_radius = 3, width = 15, height = 10, fg_color = "#131313", bg_color = "#131313", text_color = "#9999FF", hover_color = "#424242", font = ('Roboto', 12, "normal"))

@@ -5,7 +5,7 @@ a = Analysis(
     ['Scribe.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('C:\\\\My Workspace\\\\My_Projects\\\\Notepad\\\\images\\\\scribe_logo.ico', 'images')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
