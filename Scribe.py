@@ -29,6 +29,7 @@ class Scribe(ctk.CTk):
         icon_path = os.path.join(base_path, "images", "scribe_logo.ico") # Configure "Path" to the "Icon"
                                                                          # The "os.path.join(*paths)" combines multiple Components of a File_path into a Single_path
         dotenv_path = os.path.join(base_path, ".env") # Configure "Path" to the ".env" File
+        
         # Set the "Window_Icon" / "Application_Logo"
         self.wm_iconbitmap(icon_path)
 
