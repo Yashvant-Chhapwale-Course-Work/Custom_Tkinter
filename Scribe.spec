@@ -5,7 +5,7 @@ a = Analysis(
     ['Scribe.py'],
     pathex=[],
     binaries=[],
-    datas=[('C:\\\\My Workspace\\\\My_Projects\\\\Notepad\\\\images\\\\scribe_logo.ico', 'images')],
+    datas=[('.env', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,5 +35,4 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['C:\\My Workspace\\My_Projects\\Notepad\\images\\scribe_logo.ico'],
 )

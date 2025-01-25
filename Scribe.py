@@ -28,7 +28,7 @@ class Scribe(ctk.CTk):
                                                                    # The "__file__" attribute represents the path of the Current_Script(Scribe.py)                                                 
         icon_path = os.path.join(base_path, "images", "scribe_logo.ico") # Configure "Path" to the "Icon"
                                                                          # The "os.path.join(*paths)" combines multiple Components of a File_path into a Single_path
-
+        dotenv_path = os.path.join(base_path, ".env") # Configure "Path" to the ".env" File
         # Set the "Window_Icon" / "Application_Logo"
         self.wm_iconbitmap(icon_path)
 
@@ -76,7 +76,7 @@ class Scribe(ctk.CTk):
         self.add_status_bar()
 
         # Initialize "genai" Model
-        load_dotenv() # Load the "Environment_Variables" from ".env" File
+        load_dotenv(dotenv_path) # Load the "Environment_Variables" from ".env" File
         gemini_key=os.getenv("GOOGLE_GENAI_API_KEY") # Fetch the API Key
         if not gemini_key:
             self.op_status.configure(text=": / Gemini Authentication Failed")
