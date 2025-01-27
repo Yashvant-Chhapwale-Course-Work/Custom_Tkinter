@@ -28,7 +28,6 @@ class Scribe(ctk.CTk):
                                                                    # The "__file__" attribute represents the path of the Current_Script(Scribe.py)                                                 
         icon_path = os.path.join(base_path, "images", "scribe_logo.ico") # Configure "Path" to the "Icon"
                                                                          # The "os.path.join(*paths)" combines multiple Components of a File_path into a Single_path
-        dotenv_path = os.path.join(base_path, ".env") # Configure "Path" to the ".env" File
         
         # Set the "Window_Icon" / "Application_Logo"
         self.wm_iconbitmap(icon_path)
@@ -77,14 +76,9 @@ class Scribe(ctk.CTk):
         self.add_status_bar()
 
         # Initialize "genai" Model
-        load_dotenv(dotenv_path) # Load the "Environment_Variables" from ".env" File
-        gemini_key=os.getenv("GOOGLE_GENAI_API_KEY") # Fetch the API Key
-        if not gemini_key:
-            self.op_status.configure(text=": / Gemini Authentication Failed")
-            print("Plausible Error : : ⚠️'.env' File Not Found")
-        else:
-            genai.configure(api_key = gemini_key)
-            self.model = genai.GenerativeModel('gemini-pro')
+        gemini_key="PASTE_API_KEY_HERE" # Store the API Key in the variable.
+        genai.configure(api_key = gemini_key)
+        self.model = genai.GenerativeModel('gemini-pro')
 
         # Handles "Tab_Change" Events
         self.notebook.bind("<<NotebookTabChanged>>", self.tab_change_event)
@@ -93,10 +87,12 @@ class Scribe(ctk.CTk):
         self.bind("<Control-n>", lambda event: self.add_new_tab())
         self.bind("<Control-o>", lambda event: self.open_in_scribe())
         self.bind("<Control-s>", lambda event: self.save_scribe())
-        self.bind("<Control-Shift-s>", lambda event: self.save_as_scribe())
+        self.bind("<Control-Shift-s>", lambda event: self.save_as_scribe()) # If Caps_Lock is On
+        self.bind("<Control-Shift-S>", lambda event: self.save_as_scribe())
         self.bind("<Control-z>", lambda event: self.undo_scribe())
         self.bind("<Control-y>", lambda event: self.redo_scribe())
         self.bind("<Control-f>", lambda event: self.toggle_find_widget())
+        self.bind("<Control-Shift-f>", lambda event: self.toggle_font_menu()) # If Caps_Lock is On
         self.bind("<Control-Shift-F>", lambda event: self.toggle_font_menu())
         self.bind("<Control-+>", lambda event: self.zoom_in())
         self.bind("<Control-.>", lambda event: self.zoom_out())
