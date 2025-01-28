@@ -35,5 +35,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['images\\scribe_logo.ico'],
+    icon=['C:\\My Workspace\\My_Projects\\Notepad\\images\\scribe_logo.ico'],
 )

@@ -4,7 +4,7 @@ import tkinter
 import customtkinter as ctk
 from tkinter import filedialog, ttk, messagebox
 import tkinter.font as font
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import google.generativeai as genai
 import threading
 
